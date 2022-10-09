@@ -2,9 +2,9 @@
 
 namespace Apxcde\LaravelMpesaB2c\Tests;
 
+use Apxcde\LaravelMpesaB2c\LaravelMpesaB2cServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Apxcde\LaravelMpesaB2c\LaravelMpesaB2cServiceProvider;
 
 class TestCase extends Orchestra
 {
