@@ -1,6 +1,6 @@
 <?php
 
-namespace VendorName\Skeleton\Database\Factories;
+namespace Apxcde\LaravelMpesaB2c\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 

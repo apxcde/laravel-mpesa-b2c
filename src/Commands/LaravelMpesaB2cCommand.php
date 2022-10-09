@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Apxcde\LaravelMpesaB2c\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LaravelMpesaB2cCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-mpesa-b2c';
 
     public $description = 'My command';
 
