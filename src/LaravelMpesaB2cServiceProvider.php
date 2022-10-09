@@ -2,9 +2,9 @@
 
 namespace Apxcde\LaravelMpesaB2c;
 
+use Apxcde\LaravelMpesaB2c\Commands\LaravelMpesaB2cCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Apxcde\LaravelMpesaB2c\Commands\LaravelMpesaB2cCommand;
 
 class LaravelMpesaB2cServiceProvider extends PackageServiceProvider
 {
