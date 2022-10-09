@@ -8,11 +8,15 @@ return new class extends Migration
 {
     public function up()
     {
-        Schema::create('laravel_mpesa_b2c_table', function (Blueprint $table) {
+        Schema::create('mpesa_b2c_transactions', function (Blueprint $table) {
             $table->id();
-
-            // add fields
-
+            $table->string('originator_conversation_id');
+            $table->string('transaction_id');
+            $table->string('conversation_id');
+            $table->text('description');
+            $table->integer('transaction_amount')->nullable();
+            $table->string('receiver_public_data')->nullable();
+            $table->string('state')->default('pending');
             $table->timestamps();
         });
     }
