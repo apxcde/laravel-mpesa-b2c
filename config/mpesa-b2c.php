@@ -3,15 +3,15 @@
 return [
     'env' => env('MPESA_ENV', 'sandbox'),
 
-    "shortcode" => env('MPESA_SHORTCODE', '600980'),
+    'shortcode' => env('MPESA_SHORTCODE', '600980'),
 
-    "key" => env('MPESA_KEY', 'IWBJnpHUSMqGLVU21qhxFOdfTOzGjH5a'),
+    'key' => env('MPESA_KEY', 'IWBJnpHUSMqGLVU21qhxFOdfTOzGjH5a'),
 
-    "secret" => env('MPESA_SECRET', 'uqUYObhDprZoWFnG'),
+    'secret' => env('MPESA_SECRET', 'uqUYObhDprZoWFnG'),
 
-    "username" => env('MPESA_USERNAME', 'testapi'),
+    'username' => env('MPESA_USERNAME', 'testapi'),
 
-    "password" => env('MPESA_PASSWORD', 'Safaricom980!'),
+    'password' => env('MPESA_PASSWORD', 'Safaricom980!'),
 
     'results_url' => env('MPESA_RESULTS_URL', ''),
 
