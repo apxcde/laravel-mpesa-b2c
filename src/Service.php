@@ -11,15 +11,15 @@ class Service
         $base = (isset($_SERVER['HTTPS']) ? 'https' : 'http').'://'.($_SERVER['SERVER_NAME'] ?? '');
 
         $defaults = [
-            "env" => config('mpesa-b2c.env'),
-            "type" => 4,
-            "shortcode" => config('mpesa-b2c.shortcode'),
-            "key" => config('mpesa-b2c.key'),
-            "secret" => config('mpesa-b2c.secret'),
-            "username" => config('mpesa-b2c.username'),
-            "password" => config('mpesa-b2c.password'),
-            "results_url" => config('mpesa-b2c.results_url'),
-            "timeout_url" => config('mpesa-b2c.timeout_url'),
+            'env' => config('mpesa-b2c.env'),
+            'type' => 4,
+            'shortcode' => config('mpesa-b2c.shortcode'),
+            'key' => config('mpesa-b2c.key'),
+            'secret' => config('mpesa-b2c.secret'),
+            'username' => config('mpesa-b2c.username'),
+            'password' => config('mpesa-b2c.password'),
+            'results_url' => config('mpesa-b2c.results_url'),
+            'timeout_url' => config('mpesa-b2c.timeout_url'),
         ];
 
         foreach ($defaults as $key => $value) {
