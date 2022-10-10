@@ -16,7 +16,7 @@ return new class extends Migration
             $table->text('description');
             $table->integer('transaction_amount')->nullable();
             $table->string('receiver_public_data')->nullable();
-            $table->string('state')->default('pending');
+            $table->string('state')->default('Pending');
             $table->timestamps();
         });
     }
