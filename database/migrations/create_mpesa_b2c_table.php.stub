@@ -8,13 +8,12 @@ return new class extends Migration
 {
     public function up()
     {
-        Schema::create('mpesa_b2c_transactions', function (Blueprint $table) {
-            $table->id();
+        Schema::create('mpesa_b2_c_transactions', function (Blueprint $table) {
             $table->string('originator_conversation_id');
-            $table->string('transaction_id');
             $table->string('conversation_id');
             $table->text('description');
-            $table->integer('transaction_amount')->nullable();
+            $table->integer('transaction_amount');
+            $table->string('mpesa_transaction_id')->nullable();
             $table->string('receiver_public_data')->nullable();
             $table->string('state')->default('Pending');
             $table->timestamps();
