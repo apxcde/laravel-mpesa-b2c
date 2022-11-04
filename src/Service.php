@@ -133,7 +133,11 @@ class Service
             'ResultURL' => self::$config->results_url,
         ];
 
-        $response = self::post('/accountbalance/v1/query', $payload);
+        $endpoint = ($env == 'live')
+            ? 'https://api.safaricom.co.ke/mpesa/accountbalance/v1/query'
+            : 'https://sandbox.safaricom.co.ke/mpesa/accountbalance/v1/query';
+
+        $response = self::post($endpoint, $payload);
         $result = json_decode($response, true);
 
         return is_null($callback)
