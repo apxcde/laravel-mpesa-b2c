@@ -1,8 +1,6 @@
 # Laravel Package For Mpesa B2C
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/apxcde/laravel-mpesa-b2c.svg?style=flat-square)](https://packagist.org/packages/apxcde/laravel-mpesa-b2c)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/apxcde/laravel-mpesa-b2c/run-tests?label=tests)](https://github.com/apxcde/laravel-mpesa-b2c/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/apxcde/laravel-mpesa-b2c/Fix%20PHP%20code%20style%20issues?label=code%20style)](https://github.com/apxcde/laravel-mpesa-b2c/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/apxcde/laravel-mpesa-b2c.svg?style=flat-square)](https://packagist.org/packages/apxcde/laravel-mpesa-b2c)
 
 ## Installation
