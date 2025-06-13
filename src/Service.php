@@ -91,7 +91,7 @@ class Service
         return curl_exec($curl);
     }
 
-    public static function reconcile(callable $callback = null): array
+    public static function reconcile(?callable $callback = null): array
     {
         $response = json_decode(file_get_contents('php://input'), true);
 
